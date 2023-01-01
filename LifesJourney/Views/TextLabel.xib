@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TextLabelViewController" customModule="LifesJourney" customModuleProvider="target">
+            <connections>
+                <outlet property="label" destination="Ft5-tq-ahq" id="evc-2s-M9B"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="qaP-lf-JvG">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="na5-MU-A6V">
+                    <rect key="frame" x="0.0" y="371" width="393" height="110"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ft5-tq-ahq">
+                            <rect key="frame" x="0.0" y="0.0" width="41.333333333333336" height="110"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" placeholderIntrinsicWidth="351.66666666666663" placeholderIntrinsicHeight="110" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3Fs-ke-uMY">
+                            <rect key="frame" x="41.333333333333343" y="0.0" width="351.66666666666663" height="110"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="8UC-2L-9KO"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="8UC-2L-9KO" firstAttribute="bottom" secondItem="na5-MU-A6V" secondAttribute="bottom" constant="337" id="7JJ-i8-Jl4"/>
+                <constraint firstItem="8UC-2L-9KO" firstAttribute="trailing" secondItem="na5-MU-A6V" secondAttribute="trailing" id="LBJ-lx-bvs"/>
+                <constraint firstItem="na5-MU-A6V" firstAttribute="top" secondItem="8UC-2L-9KO" secondAttribute="top" constant="312" id="SSc-Pn-Jpb"/>
+                <constraint firstItem="na5-MU-A6V" firstAttribute="leading" secondItem="8UC-2L-9KO" secondAttribute="leading" id="bXe-QU-6pK"/>
+                <constraint firstItem="na5-MU-A6V" firstAttribute="leading" secondItem="8UC-2L-9KO" secondAttribute="leading" id="dji-JB-3sy"/>
+            </constraints>
+            <point key="canvasLocation" x="149" y="-5"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

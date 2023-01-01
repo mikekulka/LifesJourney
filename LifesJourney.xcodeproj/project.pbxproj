@@ -19,6 +19,8 @@
 		4169DF59292AF179000C8EF4 /* LifesJourneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4169DF58292AF179000C8EF4 /* LifesJourneyTests.swift */; };
 		4169DF63292AF179000C8EF4 /* LifesJourneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4169DF62292AF179000C8EF4 /* LifesJourneyUITests.swift */; };
 		4169DF65292AF179000C8EF4 /* LifesJourneyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4169DF64292AF179000C8EF4 /* LifesJourneyUITestsLaunchTests.swift */; };
+		41D41EFB2961F0D7001E03B6 /* TextLabel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41D41EFA2961F0D7001E03B6 /* TextLabel.xib */; };
+		41D41EFD2961F11B001E03B6 /* TextLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D41EFC2961F11B001E03B6 /* TextLabelViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		4169DF5E292AF179000C8EF4 /* LifesJourneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifesJourneyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4169DF62292AF179000C8EF4 /* LifesJourneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifesJourneyUITests.swift; sourceTree = "<group>"; };
 		4169DF64292AF179000C8EF4 /* LifesJourneyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifesJourneyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		41D41EFA2961F0D7001E03B6 /* TextLabel.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextLabel.xib; sourceTree = "<group>"; };
+		41D41EFC2961F11B001E03B6 /* TextLabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLabelViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				412DD2A82960F1B900A34161 /* SignIn.storyboard */,
+				41D41EFA2961F0D7001E03B6 /* TextLabel.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -94,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				412DD2AA2960F1E000A34161 /* SignInViewController.swift */,
+				41D41EFC2961F11B001E03B6 /* TextLabelViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -259,6 +265,7 @@
 				412DD2A92960F1B900A34161 /* SignIn.storyboard in Resources */,
 				4169DF4E292AF179000C8EF4 /* LaunchScreen.storyboard in Resources */,
 				4169DF4B292AF179000C8EF4 /* Assets.xcassets in Resources */,
+				41D41EFB2961F0D7001E03B6 /* TextLabel.xib in Resources */,
 				4169DF49292AF178000C8EF4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41D41EFD2961F11B001E03B6 /* TextLabelViewController.swift in Sources */,
 				412DD2AB2960F1E000A34161 /* SignInViewController.swift in Sources */,
 				4169DF46292AF178000C8EF4 /* ViewController.swift in Sources */,
 				412DD2AD2960F3CD00A34161 /* Strings.swift in Sources */,

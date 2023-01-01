@@ -15,13 +15,56 @@
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="WvA-0N-ApC">
+                                <rect key="frame" x="0.0" y="103" width="400" height="715"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" placeholderIntrinsicWidth="400" placeholderIntrinsicHeight="715" translatesAutoresizingMaskIntoConstraints="NO" id="53b-LB-44U" customClass="TextLabelViewController" customModule="LifesJourney" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="400" height="715"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="400" id="LQi-OY-axL"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="90" id="oAx-SV-s26"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="WvA-0N-ApC" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="67T-mC-LIY"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="WvA-0N-ApC" secondAttribute="bottom" id="P8t-LN-RLf"/>
+                            <constraint firstItem="WvA-0N-ApC" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="XB5-gh-wMR"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="WvA-0N-ApC" secondAttribute="trailing" id="obz-l2-P12"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="mBC-aj-z4B"/>
+                    <connections>
+                        <outlet property="userName" destination="53b-LB-44U" id="IiH-eW-ef8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="47" y="-27"/>
+            <point key="canvasLocation" x="973.28244274809151" y="-27.464788732394368"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="B3I-8P-ny8">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="G50-oM-2tW" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="sBt-un-Z9r">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="OFC-Ta-Nx0"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JyX-hk-FhC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="46.564885496183201" y="-27.464788732394368"/>
         </scene>
     </scenes>
     <resources>

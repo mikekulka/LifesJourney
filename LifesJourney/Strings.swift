@@ -10,5 +10,6 @@ import Foundation
 struct Strings {
     let appTitle = "grateFul"
     let signInSegue = "SignInSegue"
+    let textLabelXibName = "TextLabel"
     
 }
